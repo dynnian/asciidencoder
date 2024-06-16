@@ -18,9 +18,9 @@
 This tool is provided as source code and can be built using `make`. By just
 typing make in the terminal within the code's directory:
 
-```bash
-make
-```
+    ```bash
+    make
+    ```
 
 You should now have an executable named `ascii-dencoder`. Optionally, you can
 copy it to a location in your PATH for easier access.
@@ -30,9 +30,9 @@ copy it to a location in your PATH for easier access.
 To use `ascii-dencoder`, run the executable from the command line with the
 appropriate options.
 
-```bash
-./ascii-dencoder [OPTIONS] <value>
-```
+    ```bash
+    ./ascii-dencoder [OPTIONS] <value>
+    ```
 
 ## Options
 
@@ -54,44 +54,44 @@ appropriate options.
 
 1. Convert a string to ASCII codes:
 
-```bash
-./ascii-dencoder -s "hello"
-```
+    ```bash
+    ./ascii-dencoder -s "hello"
+    ```
 
-Output:
-
-```
-The ASCII code of the character 'h' is 104
-The ASCII code of the character 'e' is 101
-The ASCII code of the character 'l' is 108
-The ASCII code of the character 'l' is 108
-The ASCII code of the character 'o' is 111
-```
+    Output:
+    
+    ```
+    The ASCII code of the character 'h' is 104
+    The ASCII code of the character 'e' is 101
+    The ASCII code of the character 'l' is 108
+    The ASCII code of the character 'l' is 108
+    The ASCII code of the character 'o' is 111
+    ```
 
 2. Convert an ASCII code to a character:
 
-```bash
-./ascii-dencoder -c 104
-```
-
-Output:
-```
-The ASCII character for code '104' is 'h'
-```
+    ```bash
+    ./ascii-dencoder -c 104
+    ```
+    
+    Output:
+    ```
+    The ASCII character for code '104' is 'h'
+    ```
 
 3. Display help message:
 
-```bash
-./ascii-dencoder -h
-```
+    ```bash
+    ./ascii-dencoder -h
+    ```
 
 This will display detailed usage instructions and available options.
 
 4. Display version:
 
-```bash
-./ascii-dencoder -v
-```
+    ```bash
+    ./ascii-dencoder -v
+    ```
 
 This will show the current version of the program.
 
