@@ -18,9 +18,9 @@
 This tool is provided as source code and can be built using `make`. By just
 typing make in the terminal within the code's directory:
 
-    ```bash
-    make
-    ```
+```bash
+make
+```
 
 You should now have an executable named `ascii-dencoder`. Optionally, you can
 copy it to a location in your PATH for easier access.
@@ -30,9 +30,9 @@ copy it to a location in your PATH for easier access.
 To use `ascii-dencoder`, run the executable from the command line with the
 appropriate options.
 
-    ```bash
-    ./ascii-dencoder [OPTIONS] <value>
-    ```
+```bash
+./ascii-dencoder [OPTIONS] <value>
+```
 
 ## Options
 
